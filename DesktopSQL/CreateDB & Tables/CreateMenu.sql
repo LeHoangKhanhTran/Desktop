@@ -1,0 +1,4 @@
+CREATE TABLE Menu (
+  MenuName NVARCHAR(255) NOT NULL PRIMARY KEY,
+  MenuDescription NVARCHAR(255),
+)

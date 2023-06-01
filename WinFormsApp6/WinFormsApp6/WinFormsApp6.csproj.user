@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Forms\CMForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Menu\Connect.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\GMForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Menu\Grant.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Menu\GrantMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Menu\Group.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Class\CustomClasses.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Menu\UMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\UMForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Menu\User.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

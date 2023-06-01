@@ -1,0 +1,6 @@
+CREATE TABLE UserGroup (
+  GroupID VARCHAR(7) NOT NULL PRIMARY KEY,
+  GroupName NVARCHAR(255),
+  UserForm NVARCHAR(255),
+  ConnectString NVARCHAR(255)
+)
