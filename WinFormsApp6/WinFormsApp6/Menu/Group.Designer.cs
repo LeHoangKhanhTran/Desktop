@@ -38,8 +38,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -142,29 +140,10 @@
             this.label3.TabIndex = 16;
             this.label3.Text = "Form";
             // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(360, 146);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(325, 27);
-            this.textBox4.TabIndex = 17;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(360, 113);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(110, 20);
-            this.label4.TabIndex = 18;
-            this.label4.Text = "Chuỗi Connect";
-            // 
             // Group
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
@@ -196,7 +175,5 @@
         private Label label2;
         private Label label1;
         private Label label3;
-        private TextBox textBox4;
-        private Label label4;
     }
 }

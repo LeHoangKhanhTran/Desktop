@@ -33,6 +33,7 @@ namespace WinFormsApp6
             this.dc = new DataContext(connString);
             this.groupTable = dc.GetTable<UserGroup>();
             this.dataGridView1.DataSource = groupTable;
+            this.dataGridView1.Columns[this.dataGridView1.Columns.Count - 1].Visible = false;
         }
         private void DataGridView1_CellValueChanged(object? sender, DataGridViewCellEventArgs e)
         {
@@ -45,11 +46,10 @@ namespace WinFormsApp6
             string groupid = this.textBox1.Text.Trim();
             string name = this.textBox2.Text.Trim();
             string form = this.textBox3.Text.Trim();
-            string cs = this.textBox4.Text.Trim();
             g.GroupID = groupid;
             g.GroupName = name;
             g.UserForm = form;
-            g.ConnectString = cs;
+
         }
         public void HandleException()
         {
