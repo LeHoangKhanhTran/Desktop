@@ -107,7 +107,7 @@ namespace WinFormsApp6
         {
             try
             {
-                SqlConnection con = new SqlConnection("server=DESKTOP-599E22R;database=PhanQuyen;Integrated Security=true");
+                SqlConnection con = new SqlConnection("server=DESKTOP-599E22R;database=PhanQuyen;Integrated Security=true"); //Thay đổi tên server
                 List<string> list = GetPermission();
                 string table = this.comboBox3.SelectedItem.ToString();
                 string group = this.comboBox2.SelectedItem.ToString();
@@ -130,7 +130,7 @@ namespace WinFormsApp6
         {
             try
             {
-                SqlConnection con = new SqlConnection("server=DESKTOP-599E22R;database=PhanQuyen;Integrated Security=true");
+                SqlConnection con = new SqlConnection("server=DESKTOP-599E22R;database=PhanQuyen;Integrated Security=true"); //Thay đổi tên server
                 List<string> list = GetPermission();
                 string table = this.comboBox3.SelectedItem.ToString();
                 string group = this.comboBox2.SelectedItem.ToString();

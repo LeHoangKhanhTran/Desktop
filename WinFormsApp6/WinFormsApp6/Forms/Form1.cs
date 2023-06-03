@@ -15,7 +15,7 @@ namespace WinFormsApp6
         {
             string username = this.textBox1.Text.Trim();
             string password = this.textBox2.Text.Trim();
-            string connString = "server=DESKTOP-599E22R;database=PhanQuyen;uid=s2;pwd=1234567"; //s0 
+            string connString = "server=DESKTOP-599E22R;database=PhanQuyen;uid=s2;pwd=1234567"; //Thay đổi s2 thành s0 cũng như đổi tên server 
             SqlConnection connection = new SqlConnection(connString);
             SqlCommand cmd = new SqlCommand("PCR_FINDUSER", connection);
             cmd.CommandType = System.Data.CommandType.StoredProcedure;
